@@ -1,0 +1,57 @@
+html{
+    background-color: rgb(250, 212, 218);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-family: cursive;
+    color: rgb(150, 68, 82);
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 1em;
+    text-decoration: none;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button.yes {
+    background-color: #7e63c7;
+}
+
+.button.no {
+    background-color: #4c88d6;
+    cursor: default;
+}
+
+.button.no:hover {
+    opacity: 0;
+}
+
